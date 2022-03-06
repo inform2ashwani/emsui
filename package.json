@@ -23,7 +23,7 @@
     "test:cov": "npm test -- --coverage --watchAll=false",
     "test:debug": "react-scripts --inspect-brk test --runInBand",
     "predeploy": "npm run build",
-     "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "config": {
     "coreui_library_short_version": "4.0"
@@ -69,7 +69,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "2.4.1",
-    "react-scripts": "^4.0.3",
+    "react-scripts": "^5.0.0",
     "sass": "^1.43.2"
   },
   "engines": {
