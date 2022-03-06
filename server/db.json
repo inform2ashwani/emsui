@@ -1,0 +1,44 @@
+{
+    "department": [
+        {
+            "id": 1,
+            "DepartmentID": "1",
+            "DepartmentName": "CCU",
+            "CreatedDate": "2021-09-01",
+            "UpdatedDate": "2021-09-01",
+            "CreatedBy": "Lakhvir",
+            "UpdatedBy": "Rana",
+            "isActive": "Active"
+        },
+        {
+            "id": 2,
+            "DepartmentID": "2",
+            "DepartmentName": "ICU",
+            "CreatedDate": "2021-09-01",
+            "UpdatedDate": "2021-09-01",
+            "CreatedBy": "Lakhvir",
+            "UpdatedBy": "Rana",
+            "isActive": "Active"
+        },
+        {
+            "id": 3,
+            "DepartmentID": "3",
+            "DepartmentName": "ICU",
+            "CreatedDate": "2021-09-01",
+            "UpdatedDate": "2021-09-01",
+            "CreatedBy": "Lakhvir",
+            "UpdatedBy": "Rana",
+            "isActive": "Active"
+        },
+        {
+            "id": 4,
+            "DepartmentID": "4",
+            "DepartmentName": "ICU",
+            "CreatedDate": "2021-09-01",
+            "UpdatedDate": "2021-09-01",
+            "CreatedBy": "Lakhvir",
+            "UpdatedBy": "Rana",
+            "isActive": "Active"
+        }
+    ]
+}
