@@ -109,7 +109,7 @@ function ListEquipments() {
     if (formData.id) {
       //updating a user 
       const confirm = window.confirm("Are you sure, you want to update this row ?")
-      confirm && fetch(`http://ashwaniems1-001-site1.ctempurl.com/api/Equipment?${formData.id}`, {       
+      confirm && fetch(`http://emsadmin-001-site1.htempurl.com/api/Equipment?${formData.id}`, {       
         method: "PUT", body: JSON.stringify(formData), headers: {
           'content-type': "application/json"      
         }
@@ -122,7 +122,7 @@ function ListEquipments() {
         })
     } else {
       // adding new user
-      fetch('http://ashwaniems1-001-site1.ctempurl.com/api/Equipment', {
+      fetch('http://emsadmin-001-site1.htempurl.com/api/Equipment', {
         method: "POST", body: JSON.stringify(formData), headers: {
           'content-type': "application/json"
         }

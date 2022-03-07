@@ -18,7 +18,7 @@ const Login1 = () => {
      const data ={UserId:user, Password:password}
     // setAllEntry([...allEntry,data])
     //`/locks/${id}`
-     console.log(`http://ashwaniems1-001-site1.ctempurl.com/api/AppUserLogin?${data}`)
+     console.log(`http://emsadmin-001-site1.htempurl.com/api/AppUserLogin?${data}`)
 
   //   useEffect(() => {
   //     // POST request using axios inside useEffect React hook
@@ -29,7 +29,7 @@ const Login1 = () => {
   // // empty dependency array means this effect will only run once (like componentDidMount in classes)
   // }, []);http://ashwaniems1-001-site1.ctempurl.com/api/AppUserLogin
  // http://ashwaniems1-001-site1.ctempurl.com/api/AppUserLogin?UserId=ems01&Password=admin  
-  axios.post("http://ashwaniems1-001-site1.ctempurl.com/api/AppUserLogin?",data)     
+  axios.post("http://emsadmin-001-site1.htempurl.com/api/AppUserLogin?",data)     
     .then((response)=> {
       //handle success
       console.log(response);     

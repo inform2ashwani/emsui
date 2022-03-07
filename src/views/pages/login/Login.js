@@ -17,7 +17,7 @@ const Login = () => {
    // setAllEntry([...allEntry,data])
     console.log(data)
 
-     Axios.post(`http://ashwaniems1-001-site1.ctempurl.com/api/AppUserLogin?${data}`)
+     Axios.post(`http://emsadmin-001-site1.htempurl.com/api/AppUserLogin?${data}`)
     .then((response)=> {
       //handle success
       console.log(response);
